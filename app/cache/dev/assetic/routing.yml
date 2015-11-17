@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /Users/laurentbrau/Sites/PERSONAL_PROJECTS/GitProjects/BabyFaction/app/config/routing_dev.yml

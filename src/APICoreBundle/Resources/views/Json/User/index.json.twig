@@ -1,0 +1,13 @@
+{
+    "results": [
+        {% for entity in entities %}
+            {
+                "id": "{{ entity.pseudo }}",
+                "pseudo": "{{ entity.pseudo }}",
+                "email": "{{ entity.email }}",
+                "actif": "{{ entity.actif }}",
+                "photo": "{{ entity.photo }}"
+            }{% if not loop.last %},{% endif %}
+        {% endfor %}
+    ]
+}
